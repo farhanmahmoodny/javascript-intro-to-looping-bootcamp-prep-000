@@ -22,7 +22,7 @@ function doWhileLoop(array){
     i = i + 1
   }
   do{
-    console.log('Do')
+    array.push('Do')
     incrementVariable()
   }
   while(i < 5)
