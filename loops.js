@@ -22,8 +22,9 @@ function doWhileLoop(array){
     i = i + 1
   }
   do{
-    array.push('Do')
+    array.pop('Do')
     incrementVariable()
   }
   while(i < 5)
+  return array
 }
